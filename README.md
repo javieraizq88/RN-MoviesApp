@@ -1,18 +1,49 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# librerias usasdas
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+-> react native paper
 
 ```bash
+
+
+npm install react-native-paper
+npm install react-native-safe-area-context
+npm install react-native-screens 
+npm install react-native-vector-icons
+npm install @react-native-masked-view/masked-view
+npm install @react-navigation/bottom-tabs
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install react-native-gesture-handler
+npm install @react-navigation/material-top-tabs react-native-tab-view 
+npm install react-native-pager-view
+ 
+npm i axios
+
+#gestor de estados useState
+npm install zustand
+
+# para encriptar variables de entorno
+npm install -D react-native-dotenv 
+
+```
+
+
+
+```bash
+# actualizar dependencias 
+npm install
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+# instalar libreria para IOS
+npx pod-install
+
+
 # using npm
-npm start
+npx react-native start --reset-cache
 
 # OR using Yarn
 yarn start
