@@ -19,6 +19,7 @@ npm install @react-navigation/stack
 npm install react-native-gesture-handler
 npm install @react-navigation/material-top-tabs react-native-tab-view 
 npm install react-native-pager-view
+npm install react-native-screens react-native-safe-area-context
  
 npm i axios
 
@@ -28,6 +29,10 @@ npm install zustand
 # para encriptar variables de entorno
 npm install -D react-native-dotenv 
 
+
+cd ios && pod install && cd ..
+
+
 ```
 
 
@@ -35,8 +40,6 @@ npm install -D react-native-dotenv
 ```bash
 # actualizar dependencias 
 npm install
-npm install @react-navigation/native
-npm install react-native-screens react-native-safe-area-context
 
 # instalar libreria para IOS
 npx pod-install

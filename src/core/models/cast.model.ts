@@ -4,4 +4,4 @@ export interface Cast {
     name: string;
     character: string;
     avatar: string;
-}
+  }

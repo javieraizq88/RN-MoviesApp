@@ -12,7 +12,6 @@ export const getMovieGetCastUseCase = async (
         // fetcher
         const { cast } = await fetcher.get<CastResponse>(`/${movieId}/credits`);
 
-
         // mapeo
         // const actors = cast.map( (actor) => CastMapper.fromCastResponseToModel(actor) ); // TODO => es lo mismo q la linea de abajo
         const actors = cast.map(CastMapper.fromCastResponseToModel);
